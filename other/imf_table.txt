@@ -1,7 +1,0 @@
-Part OH   Alloc  SS  LT LS   SR_amount SR_period
-a    0    0      0   2  1    0         0
-f    0    0      0   1  1    0         0
-b    100  0      0   1  1    0         0
-d    170  120    0   1  160  100       1
-c    120  0      15  2  150  0         0
-e    120  0      0   1  140  0         0
