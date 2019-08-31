@@ -8,5 +8,8 @@ Generally, a master production schedule (MPS) should be planned based on availab
 
 Note: This project was initially designed to check "by hand" calculations and evolved into a fun side project/personal challenge. I do not recommend directly implementing this into a production environment without significant adjustments.
 
-## Future Improvements:
+## Future Improvements
 + Add feature to determine which items will be affected by past-due orders
+
+## Contact
+Please visit my LinkedIn profile here: www.linkedin.com/in/teddywoldstad
