@@ -1,5 +1,27 @@
 # mrpSolver
 
-Use this script to calculate a material resource planning (MRP) order-release schedule. When run, the mrpSolver will ask the user to input an item master file (IMF), master production schedule (MPS), and bill of materials (BOM) in CSV file format. Please check the example files provided for correct formatting. To test the sample files, simply type "demo" for each of the input questions while running the script. For testing your own files, place the files in the same folder as the "main.py" script and include the ".csv" extension when inputting the file names.
+Calculate a maufacturing Material Requirements Planning (MRP) order release schedule and Available to Promise (ATP) schedule using item master file, master production schedule, and bill of material information.
 
-Generally, a master production schedule should be planned based on available resources and each product's production requirements. This program will not fill past-due orders with presently available resources. Instead, it returns an order-release schedule representing past-due orders in exact quantities (rather than lot size quanities) in the time periods they should have been ordered/produced. This is done in order to allow users the greatest flexibility (e.g. expediting production, etc.).
+## About
+
+In operating a just-in-time (JIT) manufacturing environment, it is essential to have the right quantities of material and finished goods in the exact time they are required. Using the appropriate production data, these quantities can be calculated. The following documents are needed:
++ **Item Master File / IMF:** contains all materials associated with production, including raw materials, parts, assemblies, packaging, etc, and provides corresponding inventory info.
++ **Master Production Schedule / MPS:** lists all end products and present production quantities per time period.
++ **Bill of Materials / BOM:** lists all assemblies and their components/materials with corresponding quantities.
+
+We can then find a suggested MRP release schedule and ATP schedule that reflects present demand and product design.
+
+## Quickstart
+
+Use the `cli_app.py` script to run the mrpSolver with minimal setup. The app requires 3 arguments: an IMF, MPS, and BOM in CSV or JSON file formats. Sample files with the required formatting can be found under `tests/sample_files`. An option to show an indented BOM from the inputted files is also available using a flag, `--show_bom`. To test the sample files, use the following command:
+
+    python3 cli_app.py --imf ./tests/sample_files/sample_imf.json --mps ./tests/sample_files/sample_mps_by_part.json --bom ./tests/sample_files/sample_bom.json --show_bom
+
+The result will show an indented BOM, an ATP schedule, and a MRP order-release schedule.
+
+## Future Improvements
+
++ Feature to determine which items will be affected by past-due orders
++ Ability to export results as CSV/JSON files
++ Scrap rate functionality for placing more accurate orders
++ Capacity requirements planning (CRP) functionality

@@ -1,0 +1,61 @@
+[
+    {
+        "partID": "x",
+        "demand": [
+            {
+                "period": 6,
+                "quantity": 100
+            },
+            {
+                "period": 8,
+                "quantity": 100
+            },
+            {
+                "period": 10,
+                "quantity": 100
+            }
+        ]
+    },
+    {
+        "partID": "y",
+        "demand": [
+            {
+                "period": 6,
+                "quantity": 150
+            },
+            {
+                "period": 7,
+                "quantity": 100 
+            },
+            {
+                "period": 8,
+                "quantity": 200 
+            },
+            {
+                "period": 9,
+                "quantity": 100 
+            }
+        ]
+    },
+    {
+        "partID": "a",
+        "demand": [
+            {
+                "period": 4,
+                "quantity": 90 
+            },
+            {
+                "period": 5,
+                "quantity": 100
+            },
+            {
+                "period": 6,
+                "quantity": 110
+            },
+            {
+                "period": 7,
+                "quantity": 100
+            }
+        ]
+    }
+]

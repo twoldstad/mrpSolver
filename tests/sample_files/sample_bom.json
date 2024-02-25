@@ -1,0 +1,71 @@
+[
+    {
+        "partID": "x",
+        "children": [
+            {
+                "partID": "a",
+                "quantity": 2
+            },
+            {
+                "partID": "b",
+                "quantity": 1
+            },
+            {
+                "partID": "c",
+                "quantity": 4
+            }
+        ]
+    },
+    {
+        "partID": "y",
+        "children": [
+            {
+                "partID": "g",
+                "quantity": 1
+            },
+            {
+                "partID": "a",
+                "quantity": 6
+            }
+        ]
+    },
+    {
+        "partID": "a",
+        "children": [
+            {
+                "partID": "c",
+                "quantity": 0.8
+            },
+            {
+                "partID": "e",
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "partID": "b",
+        "children": [
+            {
+                "partID": "f",
+                "quantity": 35
+            }
+        ]
+    },
+    {
+        "partID": "g",
+        "children": [
+            {
+                "partID": "c",
+                "quantity": 1.3
+            },
+            {
+                "partID": "a",
+                "quantity": 1
+            },
+            {
+                "partID": "d",
+                "quantity": 1
+            }
+        ]
+    }
+]

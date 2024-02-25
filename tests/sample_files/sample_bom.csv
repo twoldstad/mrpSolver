@@ -1,0 +1,6 @@
+part_id, children
+x, a:2 b:1 c:4
+y, g:1 a:6
+a, c:0.8 e:1
+b, f:35
+g, c:1.3 d:1 a:1

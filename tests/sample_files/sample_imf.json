@@ -1,0 +1,107 @@
+[
+    {
+        "partID": "a",
+        "onHand": 0,
+        "allocated": 0,
+        "safetyStock": 0,
+        "leadTime": 2,
+        "lotSize": 1,
+        "scheduledReceipt": [
+            {
+                "period": 3,
+                "quantity": 100
+            }
+        ]
+    },
+    {
+        "partID": "b",
+        "onHand": 0,
+        "allocated": 0,
+        "safetyStock": 0,
+        "leadTime": 2,
+        "lotSize": 100,
+        "scheduledReceipt": [
+            {
+                "period": 1,
+                "quantity": 100
+            }
+        ]
+    },
+    {
+        "partID": "c",
+        "onHand": 500,
+        "allocated": 225,
+        "safetyStock": 100,
+        "leadTime": 2,
+        "lotSize": 150,
+        "scheduledReceipt": [
+            {
+                "period": 2,
+                "quantity": 100
+            },
+            {
+                "period": 4,
+                "quantity": 100
+            }
+        ]
+    },
+    {
+        "partID": "d",
+        "onHand": 0,
+        "allocated": 0,
+        "safetyStock": 0,
+        "leadTime": 1,
+        "lotSize": 100,
+        "scheduledReceipt": []
+    },
+    {
+        "partID": "e",
+        "onHand": 200,
+        "allocated": 100,
+        "safetyStock": 100,
+        "leadTime": 1,
+        "lotSize": 200,
+        "scheduledReceipt": [
+            {
+                "period": 1,
+                "quantity": 400
+            }
+        ]
+    },
+    {
+        "partID": "f",
+        "onHand": 1000,
+        "allocated": 500,
+        "safetyStock": 100,
+        "leadTime": 1,
+        "lotSize": 300,
+        "scheduledReceipt": []
+    },
+    {
+        "partID": "g",
+        "onHand": 0,
+        "allocated": 0,
+        "safetyStock": 0,
+        "leadTime": 2,
+        "lotSize": 1,
+        "scheduledReceipt": []
+    },
+    {
+        "partID": "x",
+        "onHand": 0,
+        "allocated": 0,
+        "safetyStock": 0,
+        "leadTime": 1,
+        "lotSize": 1,
+        "scheduledReceipt": []
+    },
+    {
+        "partID": "y",
+        "onHand": 0,
+        "allocated": 0,
+        "safetyStock": 0,
+        "leadTime": 1,
+        "lotSize": 1,
+        "scheduledReceipt": []
+    }
+]
